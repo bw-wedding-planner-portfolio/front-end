@@ -18,7 +18,7 @@ const UserProfile = props => {
       <div className='user-header'>
         <div className='user-text-container'>
           <h1>
-            {Object(getUser).lastName} {Object(getUser).firstName}
+            {Object(getUser).lastName}
           </h1>
           <h3>
             {Object(getUser).state}
