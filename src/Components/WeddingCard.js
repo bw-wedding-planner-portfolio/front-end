@@ -8,14 +8,13 @@ const WeddingCard = props => {
         <div className='wedding-card-front'>
           <img src={props.image} alt='wedding-img' />
           <div className='description'>
-            <p>{props.description}</p>
+            <p>{props.location}</p>
           </div>
         </div>
         <div className='wedding-card-back'>
           <div className='text-container'>
-            <p>Location: {props.location}</p>
             <p>Theme: {props.theme}</p>
-            <p>Vendors: {props.vendors}</p>
+            <p>Description: {props.description}</p>
           </div>
         </div>
       </div>

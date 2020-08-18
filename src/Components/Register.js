@@ -5,15 +5,9 @@ import '../App.css';
 
 export default function Register(props) {
   const [user, getUser] = useState({
-    firstName: '',
-    lastName: '',
-    username: '',
-    password: '',
-    city: '',
-    state: '',
     email: '',
-    phoneNumber: '',
-    pricing: ''
+    username: '',
+    password: ''
   });
 
   const handleChanges = e => {
