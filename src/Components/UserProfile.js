@@ -18,14 +18,14 @@ const UserProfile = props => {
       <div className='user-header'>
         <div className='user-text-container'>
           <h1>
-            {Object(getUser).firstName} {Object(getUser).lastName}
+            {Object(getUser).lastName} {Object(getUser).firstName}
           </h1>
           <h3>
-            {Object(getUser).city} {Object(getUser).state}
+            {Object(getUser).state}
           </h3>
-          <p>Phone: {Object(getUser).phoneNumber}</p>
           <p>Email: {Object(getUser).email}</p>
           <p>Pricing: {Object(getUser).pricing}</p>
+          <p>Phone: {Object(getUser).phoneNumber}</p>
         </div>
       </div>
       <div className='create-post'>
