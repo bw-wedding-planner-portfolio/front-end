@@ -23,8 +23,8 @@ const UserProfile = props => {
           <h3>
             {Object(getUser).state}
           </h3>
-          <p>Email: {Object(getUser).email}</p>
           <p>Pricing: {Object(getUser).pricing}</p>
+          <p>Email: {Object(getUser).email}</p>
           <p>Phone: {Object(getUser).phoneNumber}</p>
         </div>
       </div>
