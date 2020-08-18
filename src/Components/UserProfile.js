@@ -17,15 +17,7 @@ const UserProfile = props => {
     <div className='user'>
       <div className='user-header'>
         <div className='user-text-container'>
-          <h1>
-            {Object(getUser).lastName} {Object(getUser).firstName}
-          </h1>
-          <h3>
-            {Object(getUser).state}
-          </h3>
-          <p>Email: {Object(getUser).email}</p>
-          <p>Pricing: {Object(getUser).pricing}</p>
-          <p>Phone: {Object(getUser).phoneNumber}</p>
+        
         </div>
       </div>
       <div className='create-post'>
